@@ -13,7 +13,7 @@ try
         else if(pressed==="Backspace")backspace();
         else if(isLetter(pressed))
             {
-            addLetter(pressed.toUpperCase());
+            addLetter(pressed.toUpperCase()); 
             }
     });
     

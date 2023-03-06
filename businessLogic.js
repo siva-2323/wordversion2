@@ -28,7 +28,7 @@ arrayOfSecretWord=secretWord.split("");
 
 export function backspace()
 {
-    if(currentWord.length<1)
+    if(currentWord.length<1) 
     {
         return;
     }else 
